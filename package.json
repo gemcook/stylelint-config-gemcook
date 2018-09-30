@@ -1,0 +1,8 @@
+{
+  "name": "stylelint-config-gemcook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://shsssskn@github.com/gemcook/stylelint-config-gemcook.git",
+  "author": "shsssskn <shsssskn@gmail.com>",
+  "license": "MIT"
+}
