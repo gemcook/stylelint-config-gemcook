@@ -10,9 +10,11 @@
 npm install --save-dev \
   stylelint-config-gemcook \
   stylelint-config-recess-order \
+  stylelint-config-prettier \
   stylelint-prettier \
   prettier \
-  stylelint
+  stylelint \
+  prettier-stylelint
 ```
 
 
@@ -22,9 +24,11 @@ npm install --save-dev \
 yarn add --dev \
   stylelint-config-gemcook \
   stylelint-config-recess-order \
+  stylelint-config-prettier \
   stylelint-prettier \
   prettier \
-  stylelint
+  stylelint \
+  prettier-stylelint
 ```
 
 ### Configure
