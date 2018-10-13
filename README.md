@@ -37,6 +37,16 @@ Then create a file named `.stylelintrc` with following contents in the root fold
 
 ```js
 {
-  "extends": ["stylelint-prettier/recommended", "stylelint-config-recess-order"]
+  "extends": [
+    "stylelint-prettier/recommended",
+    "stylelint-config-recess-order"
+  ],
+  "ignoreFiles": [
+    "**/*.svg",
+    "**/*.xml",
+    "**/*.flow",
+    "**/*.js",
+    "**/*.jsx"
+  ]
 }
 ```
