@@ -46,7 +46,8 @@ Then create a file named `.stylelintrc` with following contents in the root fold
     "**/*.xml",
     "**/*.flow",
     "**/*.js",
-    "**/*.jsx"
+    "**/*.jsx",
+    "**/*.html"
   ]
 }
 ```
