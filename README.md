@@ -41,13 +41,14 @@ Then create a file named `.stylelintrc` with following contents in the root fold
     "stylelint-prettier/recommended",
     "stylelint-config-recess-order"
   ],
+  "rules": {
+    "prettier/prettier": true
+  },
   "ignoreFiles": [
-    "**/*.svg",
-    "**/*.xml",
-    "**/*.flow",
-    "**/*.js",
-    "**/*.jsx",
-    "**/*.html"
+    "**/*.{js,jsx,flow}",
+    "**/*.{html,xml,svg}",
+    "*.{js,jsx,flow}",
+    "*.{html,xml,svg}"
   ]
 }
 ```
